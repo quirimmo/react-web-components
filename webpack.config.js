@@ -31,6 +31,10 @@ const config = {
 				test: /(\.jsx|\.js)$/,
 				exclude: /node_modules/,
 				use: 'babel-loader'
+			},
+			{
+				test: /src\/header-scripts.html/,
+				loader: 'file'
 			}
 		]
 	},

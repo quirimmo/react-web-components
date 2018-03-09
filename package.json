@@ -14,6 +14,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
+    "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.0.6",
     "prettier": "^1.11.1",
     "webpack": "^4.1.1",
