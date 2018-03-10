@@ -33,8 +33,9 @@ const config = {
 				use: 'babel-loader'
 			},
 			{
-				test: /src\/header-scripts.html/,
-				loader: 'file'
+				test: /src\/index\.html/,
+				exclude: /node_modules/,
+				use: 'web-components-loader'
 			}
 		]
 	},

@@ -22,9 +22,13 @@
     "webpack-dev-server": "^3.1.0"
   },
   "dependencies": {
+    "@webcomponents/custom-elements": "^1.0.8",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-shadow-dom-retarget-events": "^1.0.8",
-    "web-components-loader": "^0.1.2"
+    "web-components-loader": "^0.1.2",
+    "webcomponents-loader": "^1.0.1"
   }
 }
