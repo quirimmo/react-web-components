@@ -2,7 +2,6 @@
   "name": "yarn-react-micro-app",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack -p"
@@ -29,5 +28,25 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-shadow-dom-retarget-events": "^1.0.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quirimmo/react-web-components.git"
+  },
+  "author": "Quirino Lo Russo <quirimmo@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/quirimmo/react-web-components",
+  "keywords": [
+    "web components",
+    "webcomponents",
+    "react web components",
+    "micro frontend",
+    "micro apps",
+    "react webcomponent",
+    "react micro app",
+    "react micro frontend",
+    "react",
+    "HTML custom elements",
+    "React HTML custom elements"
+  ]
 }
