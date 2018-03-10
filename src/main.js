@@ -6,5 +6,5 @@ function changeExampleFirstProperty() {
 }
 
 function callback(param1, param2) {
-	console.log('Wow I work (((( )))) !', param1, param2);
+	console.log('Callback executed!', param1, param2);
 }
