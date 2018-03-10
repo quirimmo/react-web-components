@@ -17,6 +17,8 @@ class Example extends HTMLElement {
 			case 'first-property':
 				console.log(`Value changed from ${oldValue} to ${newValue}`);
 				break;
+			case 'callback-property':
+				break;
 			default:
 				console.log('Property not covered by attributeChangedCallback of HTML Custom Element');
 				break;

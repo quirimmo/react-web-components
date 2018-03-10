@@ -2,20 +2,24 @@
   "name": "yarn-react-micro-app",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack -p"
   },
   "devDependencies": {
+    "@webcomponents/custom-elements": "^1.0.8",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
+    "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.0.6",
     "prettier": "^1.11.1",
+    "web-components-loader": "^0.1.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.10",
     "webpack-dev-server": "^3.1.0"
@@ -23,7 +27,26 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-shadow-dom-retarget-events": "^1.0.8",
-    "web-components-loader": "^0.1.2"
-  }
+    "react-shadow-dom-retarget-events": "^1.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quirimmo/react-web-components.git"
+  },
+  "author": "Quirino Lo Russo <quirimmo@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/quirimmo/react-web-components",
+  "keywords": [
+    "web components",
+    "webcomponents",
+    "react web components",
+    "micro frontend",
+    "micro apps",
+    "react webcomponent",
+    "react micro app",
+    "react micro frontend",
+    "react",
+    "HTML custom elements",
+    "React HTML custom elements"
+  ]
 }

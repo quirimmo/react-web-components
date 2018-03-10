@@ -7,9 +7,9 @@ const BUILD_DIR = path.resolve(__dirname, 'dist');
 const SRC_DIR = path.resolve(__dirname, 'src');
 
 const config = {
-	entry: {
-		bundle: SRC_DIR + '/index.jsx'
-	},
+	mode: 'development',
+	performance: { hints: false },
+	entry: SRC_DIR + '/index.jsx',
 	devtool: 'inline-source-map',
 	plugins: [
 		new CleanWebpackPlugin([BUILD_DIR]),
@@ -19,7 +19,7 @@ const config = {
 	],
 	output: {
 		path: BUILD_DIR,
-		filename: '[name].js'
+		filename: 'bundle.js'
 	},
 	node: {
 		dns: 'mock',
@@ -31,6 +31,11 @@ const config = {
 				test: /(\.jsx|\.js)$/,
 				exclude: /node_modules/,
 				use: 'babel-loader'
+			},
+			{
+				test: /src\/index\.html/,
+				exclude: /node_modules/,
+				use: 'web-components-loader'
 			}
 		]
 	},
